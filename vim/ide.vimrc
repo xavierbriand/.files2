@@ -59,6 +59,10 @@ call NERDTreeHighlightFile('css', 'cyan', 'none', 'cyan', '#151515')
 call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
 
+let NERDTreeChDirMode=2                                   "Change cwd each time NERDTree changes its root
+let NERDTreeWinPos='right'                                "NERDTree window to the right
+let NERDTreeAutoDeleteBuffer=1                            "Delete old buffer when renaming or moving a file
+
 "" Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
