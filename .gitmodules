@@ -46,3 +46,6 @@
 [submodule "vim/bundle/vim-gutter"]
 	path = vim/bundle/vim-gutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/bundle/bclose.vim"]
+	path = vim/bundle/bclose.vim
+	url = https://github.com/rbgrouleff/bclose.vim.git

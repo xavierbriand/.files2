@@ -99,6 +99,10 @@ nmap ga <Plug>(EasyAlign)
 "noremap <leader>l :TlistToggle<CR>
 
 
+"" Bclose
+noremap <leader>q :Bclose<CR>
+noremap <leader>q! :Bclose!<CR>
+
 "" {
 inoremap {<space> {}<Left>
 inoremap {<CR> {<CR>}<ESC>O
@@ -121,7 +125,3 @@ inoremap [] []
 inoremap {{<space> {{  }}<left><left><left>
 inoremap {%<space> {%  %}<left><left><left>
 inoremap {#<space> {#  #}<left><left><left>
-
-""" Bclose
-"noremap <leader>q :Bclose<CR>
-"noremap <leader>q! :Bclose!<CR>

@@ -125,6 +125,7 @@ Plugin 'gitv'
 Plugin 'vim-gutter'
 Plugin 'phpcomplete'
 Plugin 'vim-easy-align'
+Plugin 'bclose.vim'
 "https://github.com/Shougo/unite-outline.git
 
 call vundle#end()
