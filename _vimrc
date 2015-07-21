@@ -1,5 +1,6 @@
 set nocompatible                                                "Don't be compatible with vi
 set langmenu=en_US.UTF-8
+set t_ut=                                                       "Disable background color erase (BCE) so that color schemes render properlu when inside 256-color tmux
 
 " interface
 set ttyfast                                                     "Fast terminal connection
