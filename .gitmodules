@@ -49,3 +49,6 @@
 [submodule "vim/bundle/bclose.vim"]
 	path = vim/bundle/bclose.vim
 	url = https://github.com/rbgrouleff/bclose.vim.git
+[submodule "vim/bundle/vim-jinja"]
+	path = vim/bundle/vim-jinja
+	url = https://github.com/mitsuhiko/vim-jinja.git
