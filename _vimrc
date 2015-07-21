@@ -55,7 +55,7 @@ set encoding=UTF-8                                              "Display UTF-8
 
 "" char management
 set list                                                        "Display unprintable characters
-set listchars=tab:>·,trail:·,nbsp:␣                             "Highlight <Tab>, trailing spaces and nonbreakable space
+set listchars=tab:▹·,trail:␠,nbsp:␣                             "Highlight <Tab>, trailing spaces and nonbreakable space
 set backspace=indent,eol,start                                  "Allow backspacing everything in insert mode
 set iskeyword+=_,@                                              "None of these are word dividers
 
