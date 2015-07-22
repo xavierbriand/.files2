@@ -1,0 +1,7 @@
+
+export PATH=/home/xavier/npm_modules/bin/:$PATH                                # add users npm bin before /usr bin
+export PATH=/usr/local/bin::$PATH                                              # local/bin first
+
+export EDITOR=vim                                                              # vim as main editor
+
+source ~/.bashrc.local                                                         # load local settings
