@@ -12,14 +12,15 @@ nnoremap tn  :tabnew<CR>
 nnoremap tc  :tabclose<CR>
 
 nnoremap th  :tabfirst<CR>
-nnoremap tk  :tabnext<CR>
-nnoremap tj  :tabprev<CR>
+nnoremap tj  :tabnext<CR>
+nnoremap tk  :tabprev<CR>
 nnoremap tl  :tablast<CR>
 
-
 "" Buffers
-nnoremap <C-b>l :bnext<CR>
-nnoremap <C-b>h :bprevious<CR>
+nnoremap <C-b>h :bfirst<CR>
+nnoremap <C-b>k :bprevious<CR>
+nnoremap <C-b>j :bnext<CR>
+nnoremap <C-b>l :blast<CR>
 nmap # :b#<CR>
 
 "" Make
