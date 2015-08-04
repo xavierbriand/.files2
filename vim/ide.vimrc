@@ -43,6 +43,7 @@ nnoremap <leader>b :Unite -quick-match buffer<cr>
 
 "" Airline
 let g:airline#extensions#tabline#enabled=1
+let g:airline_powerline_fonts=1
 
 "" NERDTree
 autocmd vimenter * NERDTree                               "Open NERDTree on vim start
