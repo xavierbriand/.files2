@@ -22,6 +22,8 @@ nnoremap <C-b>k :bprevious<CR>
 nnoremap <C-b>j :bnext<CR>
 nnoremap <C-b>l :blast<CR>
 nmap # :b#<CR>
+""" remap <C-b> motion
+nnoremap <C-b><C-b> <C-b>
 
 "" Make
 noremap <F2> :SyntasticCheck<CR>
