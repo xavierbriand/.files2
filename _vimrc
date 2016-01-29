@@ -150,6 +150,4 @@ source ~/.vim/ide.vimrc
 source ~/.vim/php.vimrc
 source ~/.vim/js.vimrc
 source ~/.vim/html.vimrc
-
-""" rst
-autocmd BufNewFile,BufRead *.rst setlocal textwidth=80  colorcolumn=80  spell spelllang=en
+source ~/.vim/text.vimrc
