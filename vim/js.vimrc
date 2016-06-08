@@ -1,4 +1,6 @@
 " JavaScript
 
-"" syntax highlight for json
-autocmd BufNewFile,BufRead *.json setlocal syntax=javascript
+" TypeScript
+
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow

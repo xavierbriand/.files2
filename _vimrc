@@ -128,6 +128,8 @@ Plugin 'vim-gutter'
 Plugin 'phpcomplete'
 Plugin 'vim-easy-align'
 Plugin 'bclose.vim'
+Plugin 'typescript-vim'
+Plugin 'vim-js-indent'
 "https://github.com/Shougo/unite-outline.git
 
 call vundle#end()
