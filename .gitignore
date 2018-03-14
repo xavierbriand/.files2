@@ -1,3 +1,5 @@
-/vim/backupdir/*
-/vim/undodir/*
-/vim/view/*
+/vim/backupdir
+/vim/undodir
+/vim/view
+/vim/plugged
+/vim/autoload

@@ -96,43 +96,30 @@ nnoremap <CR> :nohlsearch<cr>
 "" Spell
 set nospell                                                                    "Disabled spelling
 
-"" local settings
-try
-  source ~/.vimrc.local
-catch
-endtry
 
 "" Load Bundles
-filetype off
+call plug#begin()
 
-set runtimepath+=~/.vim/bundle/Vundle.vim                                      "Load bundle manager
-set runtimepath+=~/.vim/bundle/vimproc.vim                                     "Load bundle manager
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'vim-scripts/peaksea'
+Plug 'lepture/vim-jinja'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-syntastic/syntastic'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'groenewege/vim-less'
+Plug 'adelarsq/vim-matchit'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'gregsexton/gitv', {'on': ['Gitv']}
+Plug 'airblade/vim-gitgutter'
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'junegunn/vim-easy-align'
+Plug 'chrismccord/bclose.vim'
+Plug 'pangloss/vim-javascript', { 'for': ['javascript'] }
+Plug 'leafgarland/typescript-vim'
 
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'unite.vim'
-Plugin 'nerdtree'
-Plugin 'nerdtree-git-plugin'
-Plugin 'peaksea'
-Plugin 'vim-jinja'
-Plugin 'vim-airline'
-Plugin 'syntastic'
-Plugin 'css.vim'
-Plugin 'vim-less'
-Plugin 'vim-matchit'
-Plugin 'surround'
-Plugin 'vim-fugitive'
-Plugin 'gitv'
-Plugin 'vim-gutter'
-Plugin 'phpcomplete'
-Plugin 'vim-easy-align'
-Plugin 'bclose.vim'
-Plugin 'typescript-vim'
-Plugin 'vim-js-indent'
-"https://github.com/Shougo/unite-outline.git
-
-call vundle#end()
+call plug#end()
 
 filetype plugin indent on
 
@@ -146,10 +133,10 @@ colorscheme peaksea
 highlight clear SignColumn
 
 "" Dev tools
-source ~/.vim/ide.vimrc
+source ~/.files2/vim/ide.vimrc
 
 "" Language specific settings
-source ~/.vim/php.vimrc
-source ~/.vim/js.vimrc
-source ~/.vim/html.vimrc
-source ~/.vim/text.vimrc
+source ~/.files2/vim/php.vimrc
+source ~/.files2/vim/js.vimrc
+source ~/.files2/vim/html.vimrc
+source ~/.files2/vim/text.vimrc

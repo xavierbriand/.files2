@@ -3,13 +3,20 @@ Install
 
     $ cd ~
     $ git clone [repo]
-    $ git submodule update --init
-    $ ln -s .files2/_bash_profile .bash_profile
-    $ ln -s .files2/_bashrc .bashrc
-    $ touch ~/.bashrc.local
-    $ ln -s .files2/_tmux.conf .tmux.conf
-    $ ln -s .files2/_vimrc .vimrc
-    $ touch ~/.vim.local
+    $ cd .files2
+    $ curl -fLo vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+    In ~/.bash_profile
+    source .files2/_bash_profile
+
+    In ~/.bashrc
+    source .files2/_bashrc
+
+    $ ln -s .files2/vim .vim
+
+    In ~/.vimrc
+    source .files2/_vimrc
+
     $ cp .files2/_gitconfig.dist .gitconfig
     $ git config --global user.name [your name]
     $ git config --global user.email [your email]
